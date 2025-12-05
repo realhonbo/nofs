@@ -4,7 +4,7 @@
  */
 #include "unistd.h"
 #include "arm.h"
-#include "../.config"
+#include "../defconfig"
 /*
  * 链式块存储
  *

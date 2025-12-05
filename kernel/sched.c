@@ -9,7 +9,7 @@
 #include "syscall.h"
 #include "unistd.h"
 #include "stddef.h"
-#include "../.config"
+#include "../defconfig"
 
 static int last_pid = 1;
 struct task *current;

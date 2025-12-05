@@ -4,7 +4,7 @@
  */
 #include "sys.h"
 #include "compiler.h"
-#include "../.config"
+#include "../defconfig"
 
 #ifdef CPU_CLK_MHZ
 #if CPU_CLK_MHZ == 72

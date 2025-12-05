@@ -5,7 +5,7 @@
 #include "timer.h"
 #include "sched.h"
 #include "spinlock.h"
-#include "../.config"
+#include "../defconfig"
 
 #define SYSCLK_FREQ  (CPU_CLK_MHZ<<6)
 

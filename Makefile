@@ -22,13 +22,13 @@ all :
 .PHONY: clean
 clean :
 ifdef DEPS
-	 rm boot/*.o boot/*.d \
-	 init/*.o init/*.d \
-	 kernel/asm/*.o kernel/asm/*.d \
-	 kernel/*.o kernel/*.d \
-	 *.map *.bin $(TARGET)
+	 rm -v -f boot/*.o boot/*.d \
+		 init/*.o init/*.d \
+		 kernel/asm/*.o kernel/asm/*.d \
+		 kernel/*.o kernel/*.d \
+		 *.map *.bin $(TARGET)
 else
-	 rm boot/*.o  init/*.o \
+	 rm -v -f boot/*.o  init/*.o \
 	 kernel/asm/*.o  kernel/*.o \
 	 *.map *.bin $(TARGET)
 endif

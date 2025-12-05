@@ -3,7 +3,7 @@
  *  Copyright(c) 2023  Harvey
  */
 #include "unistd.h"
-#include "../.config"
+#include "../defconfig"
 
 #define SR_TXE  0x80
 #define SR_TC   0x40
